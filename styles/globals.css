@@ -19,6 +19,8 @@ a {
   text-decoration: none;
 }
 
+/* FONTS */
+
 @font-face {
   font-family: 'Good';
   src: url(../public/Good.otf);
@@ -33,12 +35,30 @@ a {
   font-family: 'Burtons';
   src: url(../public/Burtons.otf);
 }
+
+@font-face {
+  font-family: 'Ave1';
+  src: url(../public/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: 'Ave2';
+  src: url(../public/AvenirLTStd-Black.otf);
+}
+
+@font-face {
+  font-family: 'Ave3';
+  src: url(../public/AvenirLTStd-Roman.otf);
+}
+
+/* //FONTS */
+
 button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ave1' !important;
 }
 
 .alexHeading {
-  font-family: 'Good';
+  font-family: 'Ave3';
   letter-spacing: -4px;
   font-weight: 200;
   color: #262626;
