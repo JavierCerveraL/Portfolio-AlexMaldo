@@ -75,26 +75,26 @@ export default function Home() {
           <Link
             target="_blank"
             href="https://drive.google.com/file/d/1KDjwOOzKbQ5P4RFac8rvANrJ4IYboDqd/view?usp=share_link"
-            className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn  animate__delay-3s"
+            className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn  animate__delay-2s"
           >
             Portfolio
           </Link>
           <Link
             href="/Contact"
-            className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-3s"
+            className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-2s"
           >
             Contact me
           </Link>
-          <button className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-3s">
+          <button className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-2s">
             Gallery
           </button>
         </div>
 
         <div className="flex gap-2 mt-2 animate__animated animate__bounce">
-          <button className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn  animate__delay-3s">
+          <button className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn  animate__delay-2s">
             About Me
           </button>
-          <button className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-3s">
+          <button className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-2s">
             Services
           </button>
         </div>
