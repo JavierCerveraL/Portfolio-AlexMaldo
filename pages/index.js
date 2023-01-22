@@ -11,62 +11,62 @@ export default function Home() {
         <div className=" alexHeading text-7xl lg:text-8xl md:text-6xl text-center  ">
           <div>
             {' '}
-            <span className="animate__animated animate__slideInDown inline-block   ">
+            <span className="animate__animated animate__fadeInDown inline-block   ">
               A
             </span>
-            <span className="animate__animated animate__slideInDown inline-block   ">
+            <span className="animate__animated animate__fadeInDown inline-block   ">
               l
             </span>
-            <span className="animate__animated animate__slideInDown inline-block  ">
+            <span className="animate__animated animate__fadeInDown inline-block  ">
               e
             </span>
-            <span className="animate__animated animate__slideInDown inline-block animate__delay-1s  ">
+            <span className="animate__animated animate__fadeInDown inline-block animate__delay-1s  ">
               j
             </span>
-            <span className="animate__animated animate__slideInDown inline-block animate__delay-1s  ">
+            <span className="animate__animated animate__fadeInDown inline-block animate__delay-1s  ">
               a
             </span>
-            <span className="animate__animated animate__slideInDown inline-block animate__delay-1s  ">
+            <span className="animate__animated animate__fadeInDown inline-block animate__delay-1s  ">
               n
             </span>
-            <span className="animate__animated animate__slideInDown inline-block animate__delay-2s  animate__slow">
+            <span className="animate__animated animate__fadeInDown inline-block animate__delay-2s  animate__slow">
               d
             </span>
-            <span className="animate__animated animate__slideInDown inline-block animate__delay-2s  animate__slow">
+            <span className="animate__animated animate__fadeInDown inline-block animate__delay-2s  animate__slow">
               r
             </span>
-            <span className="animate__animated animate__slideInDown inline-block animate__delay-2s  animate__slow">
+            <span className="animate__animated animate__fadeInDown inline-block animate__delay-2s  animate__slow">
               o
             </span>{' '}
             <span> </span>
           </div>
           <div>
             {' '}
-            <span className="animate__animated animate__slideInDown inline-block   ">
+            <span className="animate__animated animate__fadeInDown inline-block   ">
               M
             </span>
-            <span className="animate__animated animate__slideInDown inline-block   ">
+            <span className="animate__animated animate__fadeInDown inline-block   ">
               a
             </span>
-            <span className="animate__animated animate__slideInDown inline-block   ">
+            <span className="animate__animated animate__fadeInDown inline-block   ">
               l
             </span>
-            <span className="animate__animated animate__slideInDown inline-block   ">
+            <span className="animate__animated animate__fadeInDown inline-block   ">
               d
             </span>
-            <span className="animate__animated animate__slideInDown inline-block   ">
+            <span className="animate__animated animate__fadeInDown inline-block   ">
               o
             </span>
-            <span className="animate__animated animate__slideInDown inline-block animate__delay-1s  ">
+            <span className="animate__animated animate__fadeInDown inline-block animate__delay-1s  ">
               n
             </span>
-            <span className="animate__animated animate__slideInDown inline-block animate__delay-1s  ">
+            <span className="animate__animated animate__fadeInDown inline-block animate__delay-1s  ">
               a
             </span>
-            <span className="animate__animated animate__slideInDown inline-block animate__delay-2s  animate__slow">
+            <span className="animate__animated animate__fadeInDown inline-block animate__delay-2s  animate__slow">
               d
             </span>
-            <span className="animate__animated animate__slideInDown inline-block animate__delay-2s  animate__slow">
+            <span className="animate__animated animate__fadeInDown inline-block animate__delay-2s  animate__slow">
               o
             </span>
           </div>

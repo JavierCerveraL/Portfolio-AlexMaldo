@@ -84,20 +84,20 @@ textarea {
   background-image: url(../public/bgone.jpg);
   background-position: center;
   background-size: cover;
-  border: 20px white solid;
-  border-radius: 5px;
+  border: 15px white solid;
+  border-radius: 18px;
 }
 
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 @-webkit-keyframes fadeIn {
-  0% {
+  50% {
     opacity: 0;
   }
   100% {
@@ -105,7 +105,7 @@ textarea {
   }
 }
 @keyframes fadeIn {
-  0% {
+  50% {
     opacity: 0;
   }
   100% {
