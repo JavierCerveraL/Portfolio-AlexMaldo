@@ -1,9 +1,13 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function Home() {
   return (
     <>
-      <div className=" h-screen grid  content-center justify-items-center justify-center bg-stone-200">
+      <div
+        className=" h-screen grid  content-center justify-items-center justify-center fadeIn"
+        id="main"
+      >
         <div className=" alexHeading text-7xl lg:text-8xl md:text-6xl text-center  ">
           <div>
             {' '}
@@ -68,12 +72,19 @@ export default function Home() {
           </div>
         </div>
         <div className="flex gap-2 mt-2 animate__animated animate__bounce">
-          <button className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn  animate__delay-3s">
+          <Link
+            target="_blank"
+            href="https://drive.google.com/file/d/1KDjwOOzKbQ5P4RFac8rvANrJ4IYboDqd/view?usp=share_link"
+            className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn  animate__delay-3s"
+          >
             Portfolio
-          </button>
-          <button className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-3s">
+          </Link>
+          <Link
+            href="/Contact"
+            className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-3s"
+          >
             Contact me
-          </button>
+          </Link>
           <button className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-3s">
             Gallery
           </button>

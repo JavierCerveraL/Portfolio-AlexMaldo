@@ -7,7 +7,12 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bg-one': "url('/public/bgone.jpg')",
+        'bg-two': "url('/img/footer-texture.png')",
+      },
+    },
   },
   plugins: [],
 };

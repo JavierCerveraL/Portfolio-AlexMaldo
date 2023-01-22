@@ -12,6 +12,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: #fafaf9;
 }
 
 a {
@@ -63,6 +64,55 @@ button {
   font-weight: 200;
   color: #262626;
 }
+
+textarea {
+  resize: none;
+}
+/* 
+#main {
+  background-image: url(../public/bgone.jpg);
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 50%;
+  box-shadow: 10px 4px 23px -1px rgba(68, 64, 60, 0.142);
+  -webkit-box-shadow: 10px 4px 23px -1px rgba(68, 64, 60, 0.274);
+  -moz-box-shadow: 10px 4px 23px -1px rgba(68, 64, 60, 0.75);
+} */
+
+#main {
+  background-image: url(../public/bgone.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 20px white solid;
+  border-radius: 5px;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

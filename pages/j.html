@@ -1,0 +1,92 @@
+<div
+  className=" h-screen content-center justify-items-center justify-center bg-stone-200 px-52 "
+>
+  <h3
+    className="text-4xl animate__animated animate__fadeInDown font-bold text-stone-800 md:text-5xl  pb-5 lg:pb-10 text-center  "
+  >
+    CONTACT ME
+  </h3>
+
+  <form
+    action=""
+    method="POST"
+    className="space-y-2 md:space-y-1  lg:space-y-7 "
+  >
+    <div>
+      <label
+        for="name"
+        className="block mb-2 text-sm font-medium text-stone-900 bg dark:text-stone-900"
+      >
+        Name
+      </label>
+      <input
+        type="text"
+        id="name"
+        className="shadow-sm bg-stone-50 border border-stone-900 text-stone-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2 dark:bg-slate-200 dark:border-stone-600 dark:placeholder-stone-900 dark:text-stone-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+        placeholder="Your name"
+        name="Name"
+        required
+      />
+    </div>
+    <div>
+      <label
+        for="email"
+        className="block mb-2 text-sm font-medium text-stone-900 dark:text-stone-900"
+      >
+        Email
+      </label>
+      <input
+        type="email"
+        id="email"
+        className="shadow-sm bg-stone-50 border border-stone-300 text-stone-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2 dark:bg-slate-200 dark:border-stone-600 dark:placeholder-stone-900 dark:text-stone-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+        placeholder="Your Email"
+        name="Email"
+        required
+      />
+    </div>
+
+    <div>
+      <label
+        for="subject"
+        className="block mb-2 text-sm font-medium text-stone-900 dark:text-stone-900"
+      >
+        Subject
+      </label>
+      <input
+        type="text"
+        id="subject"
+        className="shadow-sm bg-stone-50 border border-stone-300 text-stone-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2 dark:bg-slate-200 dark:border-stone-600 dark:placeholder-stone-900 dark:text-stone-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+        placeholder="Your inquire"
+        name=""
+        required
+      />
+    </div>
+
+    <div className="sm:col-span-2">
+      <label
+        for="message"
+        className="block mb-2 text-sm font-medium text-stone-900 dark:text-stone-900"
+      >
+        Your message
+      </label>
+      <textarea
+        id="message"
+        rows="6"
+        className="block p-2 w-full text-sm text-stone-900 bg-stone-50 rounded-lg shadow-sm border border-stone-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-slate-200 dark:border-stone-600 dark:placeholder-stone-900 dark:text-stone-900 dark:focus:ring-primary-500 dark:focus:border-primary-500"
+        name="Message"
+        placeholder="Leave a comment..."
+      ></textarea>
+    </div>
+    <div
+      className="flex justify-center
+            "
+    >
+      <button
+        type="submit"
+        className="bg-none hover:bg-stone-100 text-stone-800 font-semibold py-1 px-5 pt-1 border border-stone-400 rounded-sm shadow  "
+      >
+        Send
+      </button>
+    </div>
+  </form>
+</div>
