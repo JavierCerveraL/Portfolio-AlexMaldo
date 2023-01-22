@@ -2,8 +2,10 @@ import React from 'react';
 
 function Gallery() {
   return (
-    <div>
-      <h1>Gallery</h1>
+    <div className=" container my-24 px-6 mx-auto">
+      <h3 className="text-4xl animate__animated animate__fadeInDown font-bold text-stone-800 md:text-5xl  pb-5 mb-5 lg:pb-10 text-center  ">
+        Gallery
+      </h3>
     </div>
   );
 }

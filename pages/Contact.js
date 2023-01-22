@@ -14,7 +14,7 @@ function Contact() {
         </div>
       </Link>
       <h3 className="text-4xl animate__animated animate__fadeInDown font-bold text-stone-800 md:text-5xl  pb-5 mb-5 lg:pb-10 text-center  ">
-        CONTACT ME
+        Contact Me
       </h3>
       <section className="mb-32 text-stone-800">
         <div className="flex justify-center">

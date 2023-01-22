@@ -37,7 +37,7 @@ export default function Home() {
             </span>
             <span className="animate__animated animate__fadeInDown inline-block animate__delay-2s  animate__slow">
               o
-            </span>{' '}
+            </span>
             <span> </span>
           </div>
           <div>
