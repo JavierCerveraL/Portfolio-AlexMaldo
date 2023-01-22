@@ -138,16 +138,14 @@ function Contact() {
               </button>
             </form>
           </div>
-          <div className="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
+          <div className="grow-0 shrink-0 basis-auto w-full lg:w-7/12  items-center justify-center flex">
             <div className="flex flex-wrap">
               <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
-                <div className="flex items-start">
+                <div className="flex items-center justify-center ">
                   <div className="shrink-0">
                     <div className="p-4 bg-stone-700 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
                         fill="currentColor"
                         viewBox="0 0 16 16"
                         className="w-10 text-white"
