@@ -13,6 +13,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   background-color: #fafaf9;
+  font-family: 'Ave1';
 }
 
 a {
@@ -111,6 +112,18 @@ textarea {
   100% {
     opacity: 1;
   }
+}
+
+.card-text {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  bottom: 15px;
+  border: 1px #fafaf9 solid;
+  border-top: none;
+  font-weight: 600;
+  padding-left: 5px;
+  font-size: 0.6em;
 }
 
 /* @media (prefers-color-scheme: dark) {

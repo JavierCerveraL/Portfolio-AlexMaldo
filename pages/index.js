@@ -75,19 +75,19 @@ export default function Home() {
           <Link
             target="_blank"
             href="https://drive.google.com/file/d/1KDjwOOzKbQ5P4RFac8rvANrJ4IYboDqd/view?usp=share_link"
-            className="bg-none hover:bg-stone-400 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn  animate__delay-2s"
+            className="bg-none hover:bg-stone-400 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn  animate__delay-1s"
           >
             Portfolio
           </Link>
           <Link
             href="/Contact"
-            className="bg-none hover:bg-stone-400 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-2s"
+            className="bg-none hover:bg-stone-400 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-1s"
           >
             Contact me
           </Link>
           <Link
             href="/Gallery"
-            className="bg-none hover:bg-stone-400 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-2s"
+            className="bg-none hover:bg-stone-400 text-stone-800 font-semibold py-1 px-5 border border-stone-400 rounded-sm shadow animate__animated animate__zoomIn animate__delay-1s"
           >
             Gallery
           </Link>
